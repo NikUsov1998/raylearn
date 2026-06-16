@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "staticlib/raylib.h"
+#include "include/raylib.h"
 
 int main(int argc, char* argv[])
 {
