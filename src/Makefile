@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Iinclude
 LDFLAGS = 
 
-SRCDIR = src
+SRCDIR = .
 BUILDDIR = build
 BINDIR = $(BUILDDIR)/bin
 LIBDIR = $(BUILDDIR)/lib
