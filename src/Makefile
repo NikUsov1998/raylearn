@@ -1,6 +1,6 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -Iinclude
-LDFLAGS = 
+CFLAGS = -Wall -Wextra 
+LDFLAGS = -Iinclude -Llib -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 SRCDIR = .
 BUILDDIR = build
