@@ -1,4 +1,6 @@
 #include "include/raylib.h"
+#define RAYGUI_IMPLEMENTATION
+#include "include/raygui.h"
 
 int main(int argc, char* argv[])
 {
@@ -9,9 +11,9 @@ int main(int argc, char* argv[])
   while (!WindowShouldClose())
   {
     BeginDrawing();
-      ClearBackground(RAYWHITE);
-      DrawText("Test Sample", 320, 240, 24, LIGHTGRAY);
-    EndDrawing();
+    ClearBackground(RAYWHITE);
+  //DrawText("Test Sample", 320, 240, 24, LIGHTGRAY);
+    GuiLabel((Rectangle){10.0, 10.0, 100.0, 100.0}, "Test App");
   }
   CloseWindow();
 
