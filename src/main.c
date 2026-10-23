@@ -14,6 +14,7 @@ int main(int argc, char* argv[])
     ClearBackground(RAYWHITE);
   //DrawText("Test Sample", 320, 240, 24, LIGHTGRAY);
     GuiLabel((Rectangle){10.0, 10.0, 100.0, 100.0}, "Test App");
+    GuiButton((Rectangle){200.0, 100.0, 100.0, 100.0}, "Click Me!");
   }
   CloseWindow();
 
