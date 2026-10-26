@@ -5,4 +5,5 @@ For building the project on Void Linux i686 you need to compile Raylib
 ``` bash
 make PLATFORM=PLATFORM_DESKTOP GRAPHICS=GRAPHICS_API_OPENGL_21
 ```
+And add Raygui header file into include folder
 
