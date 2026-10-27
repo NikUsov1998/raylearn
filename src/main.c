@@ -31,6 +31,9 @@ int main(int argc, char* argv[])
 
             DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
             GuiCheckBox((Rectangle){10, 10, 10, 10}, "CheckBox", false);
+            GuiButton((Rectangle){10, 30, 100, 10}, "Button");
+            Vector2 testvector = {100.0, 100.0};
+            GuiGrid((Rectangle){400, 225, 100, 10}, "Grid", 10.0, 10, &testvector);
 
         EndDrawing();
         //----------------------------------------------------------------------------------
